@@ -199,7 +199,21 @@ body {
 .product-advantages__item {
 	font-weight: 300;
 	font-size: 18px;
-	margin-top: 20px;	
+	margin-top: 20px;
+	margin-left: 50px;
+	position: relative;
+	
+}
+
+.product-advantages__item::before {
+	content: " ";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-right: 10px solid #f18b00;
+  border-top: px solid #f18b00; 
+  top: 7px;
+  left: -33px;
 }
 
 .info-advantages {
