@@ -85,7 +85,6 @@ body {
 	color: #004f9e;
 }
 
-
 .lang-list {
 	right: 32px;
 	margin-top: 17px;
@@ -96,10 +95,7 @@ body {
 .lang-list__item {
 	display: inline;
 	float: right;
-	padding: 10px 8px;
-
-	
-	
+	padding: 10px 8px;	
 }
 
 .lang-list__item:hover {
@@ -107,11 +103,9 @@ body {
 	border-radius: 2px;
 }
 
-
 .header-main {
 	height: 53px;
 }
-
 
 .header-main__logo {
 	float: left;
@@ -122,4 +116,28 @@ body {
 	display: inline;
 	float: right;
 	position: absolute;
+}
+
+.header2 {
+	max-width: 1422px;
+	height: 54px;
+	background-color: #ecc780;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.header-main__nav {
+	padding-top: 17px;
+	margin-left: 250px;
+}
+
+.main-nav__item {
+	display: inline;
+	margin-left: 33px;
+	
+	font-family: 'lato', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+
 }
