@@ -35,12 +35,17 @@ body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 14px;
+  	margin-right: 10px;
 }
 
-.top-nav__item {
-	display: inline;
+.top-nav__link1 {
+	min-width: 213px;
+}
+
+
+.top-nav__item {	
 	float: left;
-	padding: 7px 20px 6px 20px;
+	padding: 7px 20px 6px 30px;
 	margin-top: 20px;	
 }
 
