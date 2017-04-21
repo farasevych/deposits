@@ -201,18 +201,17 @@ body {
 	font-size: 18px;
 	margin-top: 20px;
 	margin-left: 49px;
-	position: relative;
-	
+	position: relative;	
 }
 
 .product-advantages__item::before {
 	content: " ";
   position: absolute;
 
-  border-right: 10px solid #f18b00;
-  border-top: 10px solid #f18b00; 
+  border-right: 8px solid #f18b00;
+  border-top: 8px solid #f18b00; 
   top: 7px;
-  left: -22px;
+  left: -20px;
   border-radius: 50%;
 }
 
@@ -228,6 +227,4 @@ body {
 	float: right;
 	margin-right: 150px;
 	margin-top: 108px;
-
-
 }
