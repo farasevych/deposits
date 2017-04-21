@@ -31,12 +31,15 @@ body {
 	position: relative;
 }
 
-.header-top__text {
-	color: #000;
+.header-top__text {	
 	text-transform: uppercase;	
 	font-weight: 300;
 	font-size: 14px;
   	margin-right: 10px;
+}
+
+.link_black {
+	color: #000;
 }
 
 .top-nav__link1 {
@@ -130,8 +133,8 @@ body {
 	position: absolute;	
 }
 
-.main-nav__link {
-	color: #004f9e;	
+.link_blue {
+	color: #004f9e;
 }
 
 .main-nav__link:hover {
@@ -227,4 +230,24 @@ body {
 	float: right;
 	margin-right: 150px;
 	margin-top: 108px;
+}
+
+.line-item {
+	max-width: 390px;
+	height: 200px;
+	float: left;
+	margin-right: 58px;
+}
+
+.product-line__title {
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.product-line__content {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.5;
+	padding-top: 14px;
+	max-width: 387px;
 }
