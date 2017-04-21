@@ -14,10 +14,12 @@ a {
 
 body {
 	max-width: 1920px;
+
 }
 
 .wrapper {
-	max-width: 1508px;		
+	max-width: 1508px;
+	font-family: 'Lato', sans-serif;	
 }
 
 .header1 {
@@ -32,7 +34,7 @@ body {
 .header-top__text {
 	color: #000;
 	text-transform: uppercase;
-	font-family: 'Lato', sans-serif;
+	
 	font-weight: 300;
 	font-size: 14px;
   	margin-right: 10px;
@@ -149,9 +151,19 @@ body {
 
 .main-nav__item {
 	display: inline;
-	margin-left: 33px;	
-	font-family: 'Lato', sans-serif;
+	margin-left: 33px;
 	font-weight: 300;
 	font-size: 20px;
+}
 
+.product-wrapper {
+	max-width: 1345px;
+	margin-left: 75px;
+	margin-top: 80px;
+}
+
+.product-info__bankname {
+	font-size: 16px;
+	font-weight: 300;
+	color: #9e9e9e;
 }
