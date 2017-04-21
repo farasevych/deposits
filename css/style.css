@@ -251,3 +251,13 @@ body {
 	padding-top: 14px;
 	max-width: 387px;
 }
+
+.product-line__btn {
+	position: absolute;
+	background-color: #f18b00;
+	color: #fff;
+	padding: 12px 43px 13px 30px;
+	border-radius: 3px;
+	margin-top: 15px;
+
+}
