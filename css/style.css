@@ -171,4 +171,25 @@ body {
 .product-info__title {
 	font-weight: 700;
 	font-size: 48px;
+	margin-top: 5px;
+}
+
+.product-info__discription {
+	font-weight: 300;
+	font-size: 20px;
+	margin-top: 51px;
+	max-width: 750px;
+	line-height: 1.6;
+}
+
+.product-advantages__title {
+	font-weight: 400;
+	font-size: 24px;
+	margin-top: 46px;
+}
+
+.product-advantages__item {
+	font-weight: 300;
+	font-size: 18px;
+	margin-top: 20px;	
 }
