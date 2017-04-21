@@ -41,14 +41,17 @@ body {
 
 .top-nav__link1 {
 	min-width: 213px;
+	
+}
+
+.top-nav_active {
 	background-color: #d8d8d8;
 	border-radius: 2px;
 }
 
-
 .top-nav__item {	
 	float: left;
-	padding: 7px 20px 6px 30px;
+	padding: 4px 20px 7px 30px;
 	margin-top: 20px;	
 }
 
@@ -95,7 +98,7 @@ body {
 
 .lang-list {
 	right: 32px;
-	margin-top: 17px;
+	margin-top: 20px;
 	position: absolute;
 	
 }
@@ -103,7 +106,7 @@ body {
 .lang-list__item {
 	
 	float: right;
-	padding: 10px 8px;
+	padding: 4px 8px 7px 8px;
 	width: 36px;
 }
 
@@ -136,7 +139,7 @@ body {
 	border-bottom: 1px solid #f18b00;
 }
 
-.main-nav__active {
+.main-nav_active {
 	color: #000;
 	border-bottom: 1px solid #f18b00;
 }
