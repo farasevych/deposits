@@ -121,7 +121,15 @@ body {
 .main-nav__items {
 	right: 44px;
 	float: right;
-	position: absolute;
+	position: absolute;	
+}
+
+.main-nav__link {
+	color: #004f9e;	
+}
+
+.main-nav__link:hover {
+	color: #000;
 }
 
 .header2 {
@@ -140,8 +148,7 @@ body {
 
 .main-nav__item {
 	display: inline;
-	margin-left: 33px;
-	
+	margin-left: 33px;	
 	font-family: 'lato', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
