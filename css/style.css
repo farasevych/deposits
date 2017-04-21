@@ -100,7 +100,8 @@ body {
 .lang-list__item {
 	display: inline;
 	float: right;
-	padding: 10px 8px;	
+	padding: 10px 8px;
+	width: 36px;
 }
 
 .lang-list__item:hover {
