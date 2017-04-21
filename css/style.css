@@ -15,6 +15,7 @@ a {
 body {
 	max-width: 1920px;
 
+
 }
 
 .wrapper {
@@ -25,7 +26,6 @@ body {
 .header1 {
 	max-width: 1422px;
 	height: 70px;
-	background-color: #ce9595;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -33,8 +33,7 @@ body {
 
 .header-top__text {
 	color: #000;
-	text-transform: uppercase;
-	
+	text-transform: uppercase;	
 	font-weight: 300;
 	font-size: 14px;
   	margin-right: 10px;
@@ -42,6 +41,8 @@ body {
 
 .top-nav__link1 {
 	min-width: 213px;
+	background-color: #d8d8d8;
+	border-radius: 2px;
 }
 
 
@@ -135,10 +136,14 @@ body {
 	border-bottom: 1px solid #f18b00;
 }
 
+.main-nav__active {
+	color: #000;
+	border-bottom: 1px solid #f18b00;
+}
+
 .header2 {
 	max-width: 1422px;
 	height: 54px;
-	background-color: #ecc780;
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -192,4 +197,20 @@ body {
 	font-weight: 300;
 	font-size: 18px;
 	margin-top: 20px;	
+}
+
+.info-advantages {
+	height: 550px;
+}
+
+.info-advantages__content {
+	float: left;
+}
+
+.product-picture {
+	float: right;
+	margin-right: 150px;
+	margin-top: 108px;
+
+
 }
