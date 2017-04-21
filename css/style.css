@@ -167,3 +167,8 @@ body {
 	font-weight: 300;
 	color: #9e9e9e;
 }
+
+.product-info__title {
+	font-weight: 700;
+	font-size: 48px;
+}
