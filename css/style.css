@@ -94,11 +94,11 @@ body {
 	right: 32px;
 	margin-top: 17px;
 	position: absolute;
-	right: px;
+	
 }
 
 .lang-list__item {
-	display: inline;
+	
 	float: right;
 	padding: 10px 8px;
 	width: 36px;
@@ -119,7 +119,7 @@ body {
 }
 
 .main-nav__items {
-	display: inline;
+	right: 44px;
 	float: right;
 	position: absolute;
 }
