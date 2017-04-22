@@ -310,13 +310,12 @@ body {
 }
 
 .accordion-content__title::after {
-	content: " ";
+	content: "\2716";
+	transform: rotate(45deg);
 	position: absolute;
-	width: 21px;
-	height: 21px;
-	border-right: 3px solid #004f9e;
-	border-top: 3px solid #004f9e;
-	right: px;
+
+
+	left: 1367px;
 	top: px;
 
 }
