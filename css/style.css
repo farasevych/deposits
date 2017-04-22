@@ -51,7 +51,7 @@ font-style: normal;
 }
 
 .header-top__text {	
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	font-weight: 300;
 	font-size: 14px;
   	margin-right: 10px;
@@ -97,6 +97,7 @@ font-style: normal;
 	position: absolute;
 	padding-left: 13px;
 	outline: none;
+	border: 1px solid #d4d4d4;
 }
 
 .search-form__button {
