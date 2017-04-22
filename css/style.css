@@ -273,14 +273,14 @@ body {
 
 .btn::after {
 	content: " ";
-  position: absolute;
-  width:8px;
-  height: 8px;
-  border-right: 2px solid white;
-  border-top: 2px solid white;
-  right: 20px;
-  top: 18px;
-  transform: rotate(45deg);
+	position: absolute;
+	width:8px;
+	height: 8px;
+	border-right: 2px solid white;
+	border-top: 2px solid white;
+	right: 20px;
+	top: 18px;
+	transform: rotate(45deg);
 }
 
 .btn1 {
@@ -295,11 +295,20 @@ body {
 	display: none;
 }
 
+.accordion {
+	border: 1px solid #d4d4d4;
+	border-radius: 3px;
+}
 
+.accordion-link {
+	font-weight: 300;
+	font-size: 20px;
+	
+}
 
-
-
-
+.accordion-content__title {
+	padding: 25px 0px 25px 29px;
+}
 
 
 
