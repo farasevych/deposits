@@ -14,13 +14,11 @@ a {
 
 body {
 	max-width: 1920px;
-
-
 }
 
 .wrapper {
 	max-width: 1508px;
-	font-family: 'Lato', sans-serif;	
+	font-family: 'Lato', sans-serif;
 }
 
 @font-face{
@@ -64,8 +62,7 @@ font-style: normal;
 }
 
 .top-nav__link1 {
-	min-width: 213px;
-	
+	min-width: 213px;	
 }
 
 .top-nav_active {
@@ -123,8 +120,7 @@ font-style: normal;
 .lang-list {
 	right: 32px;
 	margin-top: 20px;
-	position: absolute;
-	
+	position: absolute;	
 }
 
 .lang-list__item {
@@ -329,11 +325,7 @@ font-style: normal;
 	content: "\2716";
 	transform: rotate(45deg);
 	position: absolute;
-
-
 	left: 1367px;
-	top: px;
-
 }
 
 .accordion:target .accordion-content {
@@ -371,10 +363,6 @@ font-style: normal;
 .accordion-links {
 	margin-bottom: 67px;
 }
-
-
-
-
 
 .footer {
 	margin-top: 45px;
