@@ -23,6 +23,11 @@ body {
 	font-family: 'Lato', sans-serif;	
 }
 
+@font-face {
+	font-family: 'Lato';
+    src: url(fonts/Lato-Light.ttf);
+}
+
 .header1 {
 	max-width: 1422px;
 	height: 70px;
@@ -279,5 +284,5 @@ body {
 }
 
 .btn1 {
-	margin-top: 36px;
+	margin-top: 38px;
 }
