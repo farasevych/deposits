@@ -299,7 +299,8 @@ body {
 
 .accordion-link {
 	font-weight: 300;
-	font-size: 20px;	
+	font-size: 20px;
+	display: block;	
 }
 
 .accordion-content__title {
@@ -308,14 +309,30 @@ body {
 	font-size: 24px;
 }
 
+.accordion-content__title::after {
+	content: " ";
+	position: absolute;
+	width: 21px;
+	height: 21px;
+	border-right: 3px solid #004f9e;
+	border-top: 3px solid #004f9e;
+	right: px;
+	top: px;
+
+}
+
 .accordion:target .accordion-content {
 	display: block;	
+}
+
+.accordion:target .accordion-content__title {
+	color: #000;
 }
 
 .accordion-content {
 	padding-left: 29px;
 	max-width: 1000px;
-	line-height: 1.5;
+	line-height: 1.7;
 }
 
 .accordion-content__subtitle {
