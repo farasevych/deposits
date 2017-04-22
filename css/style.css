@@ -328,6 +328,14 @@ body {
 	color: #000;
 }
 
+.accordion:target .accordion-content__title::after {
+	display: none;
+}
+
+.arrow_orange {
+	color: #f18b00;
+}
+
 .accordion-content {
 	padding-left: 29px;
 	max-width: 1000px;
