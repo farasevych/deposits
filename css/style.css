@@ -214,13 +214,12 @@ body {
 
 .product-advantages__item::before {
 	content: " ";
-  position: absolute;
-
-  border-right: 8px solid #f18b00;
-  border-top: 8px solid #f18b00; 
-  top: 7px;
-  left: -20px;
-  border-radius: 50%;
+	position: absolute;
+	border-right: 8px solid #f18b00;
+	border-top: 8px solid #f18b00; 
+	top: 7px;
+	left: -20px;
+	border-radius: 50%;
 }
 
 .info-advantages {
@@ -258,12 +257,10 @@ body {
 }
 
 .btn {
-	
 	background-color: #f18b00;
 	color: #fff;
 	padding: 12px 43px 13px 30px;
-	border-radius: 3px;
-	
+	border-radius: 3px;	
 }
 
 .product-line__btn {
@@ -302,13 +299,39 @@ body {
 
 .accordion-link {
 	font-weight: 300;
-	font-size: 20px;
-	
+	font-size: 20px;	
 }
 
 .accordion-content__title {
 	padding: 25px 0px 25px 29px;
+	font-weight: 400;
+	font-size: 24px;
 }
+
+.accordion:target .accordion-content {
+	display: block;	
+}
+
+.accordion-content {
+	padding-left: 29px;
+	max-width: 1000px;
+	line-height: 1.5;
+}
+
+.accordion-content__subtitle {
+	font-weight: 400;
+	font-size: 20px;
+	margin-top: 46px;
+}
+
+.accordion-links__item {
+	padding-top: 7px;
+}
+
+.accordion-links {
+	margin-bottom: 67px;
+}
+
 
 
 
